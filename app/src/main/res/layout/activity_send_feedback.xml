@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SendFeedbackActivity">
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        app:title="Feedback"
+        app:navigationIcon="@drawable/ic_back_btn"
+        app:titleTextColor="@color/white"
+        android:background="@color/blue"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_marginTop="200dp"
+        android:gravity="center">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            app:boxStrokeColor="@color/blue"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Give Your Feedback..."
+                android:inputType="text"
+                android:id="@+id/Give_Your_FeedBack"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="true"
+            android:textColor="@color/red"
+            android:textSize="20sp"
+            app:strokeColor="@color/red"
+            android:fontFamily="@font/montserrat"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:id="@+id/Submit_Your_FeedBack"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bookdonation">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/book_donate_logo1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/book_donate_logo1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BookDonation">
+        <activity
+            android:name=".InterView.RecyclerView"
+            android:exported="false" />
+        <activity
+            android:name=".FullImagerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminFeedbackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminMakeAComplaintActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminDonateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SendFeedbackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminEmailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Make_A_Complaint.Make_A_ComplaintActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Find_Donors.Find_DonorsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DonoteABook.DonoteABookActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainModuleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

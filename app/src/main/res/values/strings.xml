@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BookDonation</string>
+
+    <string name="Donote_book_content">Without books the development of civilization would have been impossible. They are the engines of change, windows on the world, "Lighthouses" as the poet said "erected in the sea of time". They are companions, teachers, magicians, bankers of the treasures of the mind, Books are humanity in print.</string>
+    <string name="make_a_complaint">This book offers a systematic analysis of the methods used to stop complaints and a powerful and poetic meditation on what complaints can be used to do.</string>
+    <string name="admin_role">An admin user has full access to all BookDonation Modules where you can add, view, edit, delete various business transactions within the system.</string>
+    <string name="book_feedback">1. Start with a couple of sentences describing what the book is about\n2. Discuss what you particularly liked about the book
+    3. Mention anything you disliked about the book\n4. Round up your review\n5. You can give the book a rating, for example a mark out of five or ten, if you like!</string>
+    <string name="book_about_title">Importance of Books in Our Life</string>
+    <string name="book_about_content1"> Books play a quintessential role in every student’s life by introducing them to a world of imagination, providing knowledge of the outside world, improving their reading, writing and speaking skills as well as boosting memory and intelligence. The importance of books in our life cannot be undermined for they not only help in broadening our horizons but also act as doorways of connecting us with the world around us. They function as survival kits, they influence us and leave an impact on us. Want to know the benefits of books and the importance of reading? Curious about how books impact our lives? Read this blog to know all about the importance of books in a student’s life, essays on importance of reading books, quotes and more</string>
+    <string name="book_about_content2">THIS BLOG INCLUDES:
+Importance of Books in Our Life
+Books are Your Best Friend
+Books Illuminate Your Imagination
+Books Give Perspective to the World Around You
+Books Build Confidence
+Books Help You Grow Mentally and Emotionally
+List Life Lessons to Learn from Books
+Importance of Books in Our Life Essay
+Essay on Importance of Reading
+Importance of Books Quotes</string>
+</resources>

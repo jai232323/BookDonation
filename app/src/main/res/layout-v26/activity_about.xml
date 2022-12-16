@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+    
+    
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        app:title="About"
+        app:navigationIcon="@drawable/ic_back_btn"
+        app:titleTextColor="@color/white"
+        android:background="@color/blue"
+        tools:ignore="MissingConstraints" />
+    
+    
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/book_about_title"
+                android:textColor="@color/darkgray"
+                android:textSize="22sp"
+                android:gravity="center"
+                android:fontFamily="@font/montserrat"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/luxurious"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:text="@string/book_about_content1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/luxurious"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/book_about_content2"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
